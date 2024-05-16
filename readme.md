@@ -90,6 +90,7 @@ status:
   updatedReplicas: 2
 ```
 Saya mengganti field spec.strategy.type dari RollingUpdate menjadi Recreate
+
 4. What do you think are the benefits of using Kubernetes manifest files? Recall your experience
 in deploying the app manually and compare it to your experience when deploying the same app
 by applying the manifest files (i.e., invoking `kubectl apply -f` command) to the cluster.
